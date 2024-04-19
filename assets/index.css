@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+
+.login {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px 0px;
+
+
+
+
+}
+.esqueceuSenha{
+    text-decoration: none;
+    color:black ;
+    font-size: 20px;
+    
+}
+.logo{
+    position: relative;
+    top: -100px;
+}
+
+.yt {
+    display: flex;
+}
+
+.lab {
+    margin-left: 320px;
+    
+}
+.labw {
+font-size: 20px;    
+}
+
+.buttr {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    right: 240px;
+    top: 30px;
+    align-items: left;
+    background-color: #0C1E6D;
+    color: white;
+    
+
+}
+
+.login1 {
+    width: 50%;
+    height: 80vh;
+    background-color: #0C1E6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px 0px;
+
+}
+
+.labelput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.put {
+    width: 80%;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+
+/*  */
