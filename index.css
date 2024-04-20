@@ -2,7 +2,13 @@
 @media (max-width:1397px) {.lab { margin-left: 150px;}.buttr {left: -140px;}}@media (max-width:1297) {.lab { margin-left: 100px;}.buttr {left: -170px;}}
 @media (max-width:1275px) {.lab { margin-left: 120px;}.buttr { left: -130px; }}@media (max-width:1183px) {.lab {margin-left: 60px;}.buttr { left: -110px;}}
 
-
+@media (max-width: 1366px) {
+    .logo{
+        position: relative;
+        top: -40px;
+    }
+    
+}
 @media (max-width:1057px) {
     .lab {
         margin-left: 60px;
