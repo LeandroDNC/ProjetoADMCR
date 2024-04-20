@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.invisi{
+    width: 100%;
+    height: 80px;
+}
+
+.headerinicio {
+    display: flex;
+    background-color: #0C1E6D;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.butinicio {
+    padding: 5px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.butinicio:hover,
+.busca:hover {
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.busca {
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin-left: 100px;
+
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+/* ESTILIZANDO O HEADER */
+
+.geral {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-color: #98a0c4;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar {
+    background-color: #0064AA;    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card {
+    background-color: WHITE;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20PX;
+    box-shadow: #043457 .5px .5px 3px .5px;
+
+
+}
+
+.butcard {
+    border: none;
+    border-radius: 5px;
+    background-color: #0C1E6D;
+    color: rgb(241, 241, 241);
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+
+}
+
+.sairbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    top: 40px;
+
+}
+
+/* ESTILIZANDO O NAVBAR */
+
+.navbar {
+    background-color: #0064AA;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.card {
+    background-color: WHITE;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20PX;
+    box-shadow: #043457 .5px .5px 3px .5px;
+
+
+}
+
+.butcard {
+    border: none;
+    border-radius: 5px;
+    background-color: #0C1E6D;
+    color: rgb(241, 241, 241);
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    margin: 5PX;
+
+}
+
+.sairbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    top: 100px;
+
+}
+
+/* ESTILIZANDO O INFORMA (CONTEÚDO DOS CARDS DE USUÁRIOS) */
+
+.informa {
+    width: 75%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+
+.card2 {
+    background-color: white;
+    width: 130px;
+    padding: 10px;
+    border: 3px #0C1E6D solid;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: #043457 0.5px 0.5px 3px 0.5px;
+    transition: box-shadow 0.4s;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.card2:hover {
+    box-shadow: #043457 0px 0px 10px 3px;
+}
+
+
+.nomeusuario {
+    width: 100%;
+    border: none;
+    background-color: #0C1E6D;
+    color: rgb(241, 241, 241);
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    text-align: center;
+    padding: 1PX;
+
+}
+
+.funcaousuario {
+    width: 100%;
+    border: none;
+    background-color: #0C1E6D;
+    color: rgb(241, 241, 241);
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    padding: 1PX;
+}
+
+
+
+
+
+/* ESTILIZANDO A BARRA DE FILTRO */
+
+.filtro {
+    width: 14%;
+    height: 100vh;
+    background-color: #774141;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    justify-content: center;
+}
