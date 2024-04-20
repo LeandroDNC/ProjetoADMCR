@@ -52,6 +52,7 @@
         width: 100%;
         background-color: white;
         height: 100vh;
+        position: absolute;
     }
     .container{
         height: 100vh;
