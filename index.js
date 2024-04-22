@@ -1,6 +1,6 @@
 function loginEntrar() {
-    const senhaValida = "admcroficialof";
-    const loginValido = "admcroficialof";
+    const senhaValida = "admcroficial";
+    const loginValido = "admcr";
     var senha = document.getElementById("senha").value;
     var login = document.getElementById("login").value;
 

@@ -7,20 +7,13 @@
         position: relative;
         top: -40px;
     }
+    .gradiente{
+        top: -40px;
+    }
     
 }
 
-.gradiente {
-    background: linear-gradient(45deg, #0C1E6D,#0C1E6D, #5eff6c, #5eff6c);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-size: 40px;
-}
+
 @media (max-width:1057px) {
     .lab {
         margin-left: 60px;
@@ -93,6 +86,9 @@
             top:-100px;
             width: 80px;
         
+        }
+        .gradiente{
+            top: -100px;
         }
    
  }
