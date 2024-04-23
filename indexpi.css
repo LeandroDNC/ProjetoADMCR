@@ -49,6 +49,27 @@ input[type="text"]:focus {
     outline: none;
 }
 
+.butcard {
+    border: none;
+    border-radius: 5px;
+    background-color: #0C1E6D;
+    color: rgb(241, 241, 241);
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    margin: 5PX;
+
+}
+
+
+.butcard:hover {
+  
+   
+}
+
+
+
+
 /* ESTILIZANDO O HEADER */
 
 .geral {
@@ -63,19 +84,6 @@ input[type="text"]:focus {
     flex-direction: row;
 }
 
-
-.navbar {
-    background-color: #0064AA;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
 
 .card {
     background-color: WHITE;
@@ -100,20 +108,6 @@ input[type="text"]:focus {
 
 }
 
-.sairbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px 0px 20px;
-    cursor: pointer;
-    width: 100px;
-    border-radius: 15px;
-    border: none;
-    position: relative;
-    top: 40px;
-
-}
-
 /* ESTILIZANDO O NAVBAR */
 
 .navbar {
@@ -123,10 +117,8 @@ input[type="text"]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    justify-content: center;
+   
 }
 
 .card {
@@ -135,21 +127,9 @@ input[type="text"]:focus {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    margin-top: 20PX;
     box-shadow: #043457 .5px .5px 3px .5px;
+    margin-top: 20px;
 
-
-}
-
-.butcard {
-    border: none;
-    border-radius: 5px;
-    background-color: #0C1E6D;
-    color: rgb(241, 241, 241);
-    position: relative;
-    top: 15px;
-    font-size: 13px;
-    margin: 5PX;
 
 }
 
@@ -163,7 +143,7 @@ input[type="text"]:focus {
     border-radius: 15px;
     border: none;
     position: relative;
-    top: 100px;
+    margin-left: 30px;
 
 }
 
