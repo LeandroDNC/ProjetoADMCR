@@ -24,6 +24,9 @@
     .login1{
     display: none; 
     }  
+    .caixalog{
+        top: -50px;
+    }
 
     .login{
         width: 100%;
