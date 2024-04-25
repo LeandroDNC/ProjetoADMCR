@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADMCR</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="assets/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="/indexpi.html" class="back-link"><i class="fas fa-arrow-left"></i> Voltar</a>
+    <button class="page-button">Cadastro</button>
+  </header>
+  
+  <div class="container">
+ 
+    <div class="form-container">
+      <h2>Dados Cadastrais</h2>
+      <form id="dadosCadastraisForm">
+        <div class="form-group">
+          <label for="nomeCompleto">Nome Completo</label>
+          <input type="text" id="nomeCompleto" name="nomeCompleto" required >
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="joao@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" class="date-input" required>
+        </div>
+        <div class="form-group">
+          <label for="celular">Celular</label>
+          <input type="text" id="celular" name="celular" required placeholder="(00) 00000-0000">
+        </div>
+        <div class="form-group">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
+        </div>
+        <div class="form-group">
+            <label for="cargo">Cargo</label>
+            <select id="cargo" name="cargo" list="cargos" class="select-input" required>
+              <option value="" disabled selected hidden>Selecione uma opção</option>
+              <option value="cargo1">PASTOR</option>
+              <option value="cargo2">EVANGELISTA</option>
+              <option value="cargo3">PRESBÍTERO</option>
+              <option value="cargo3">DIÁCONO</option>
+              <option value="cargo3">AUXILIAR</option>
+              <option value="cargo3">DIRIGENTE</option>
+              <option value="cargo3">VICE-DIRIGENTE</option>
+              <option value="cargo3">COOPERADOR(A)</option>
+
+            </select>
+          </div>
+          
+        <div class="form-group">
+          <label for="simNao">Batismo</label>
+          <select id="simNao" name="simNao" required>
+            <option value="" disabled selected hidden>Selecione uma opção</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="foto">Anexar Foto</label>
+            <input type="file" id="foto" name="foto" accept="image/*" required class="file-input">
+            <div id="preview" class="preview"></div>
+          </div>
+          
+      </form>
+    </div>
+
+   
+    <div class="form-container">
+      <h2>Endereço</h2>
+      <form id="enderecoForm">
+        <div class="form-group">
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep" required placeholder="12345-678">
+        </div>
+        <div class="form-group">
+          <label for="rua">Rua</label>
+          <input type="text" id="rua" name="rua" required >
+        </div>
+        <div class="form-group">
+          <label for="numero">Número</label>
+          <div class="numero-input-container" >
+            <input type="text" id="numero" name="numero" >
+            <input type="checkbox" id="semNumero" name="semNumero">
+            <label for="semNumero">Sem número</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="complemento">Complemento</label>
+          <input type="text" id="complemento" name="complemento" >
+        </div>
+        <div class="form-group">
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairro" name="bairro" required >
+        </div>
+        <div class="form-group">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" required>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado" required>
+          </div>
+          
+        <button type="submit" class="submit-button">Cadastrar</button>
+
+      </form>
+    </div>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
