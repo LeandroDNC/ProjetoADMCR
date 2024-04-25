@@ -78,7 +78,7 @@ font-size: 20px;
     width: 150px;
     height: 40px;
     font-size: 15px;
-    border: #0C1E6D 2px solid;
+    border: none;
     border-radius: 25px;
     position: relative;
     right: 240px;
@@ -94,12 +94,7 @@ font-size: 20px;
     
 
 }
-.buttr:hover{
-    width: 170px;
-    height: 60px;
-    transition: .5s;
 
-}
 .efectbut{
     border: none;
     width: 150px;
@@ -110,17 +105,17 @@ font-size: 20px;
     color: white;
     cursor: pointer;
     background-color: #0C1E6D;
-    transition: .5s;
+    transition: .3s;
     
 
 
   
 }
-.efectbut:HOVER{
+.efectbut:hover {
     background-color: #207927;
     color: black;
     transition: .5s;
-    box-shadow: #2e2e2e 1px 1px 2px 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
 .login1 {
