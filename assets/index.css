@@ -59,6 +59,7 @@ body {
 .logo{
     position: relative;
     top: -100px;
+    width: 150px;
 }
 
 .yt {

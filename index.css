@@ -2,48 +2,9 @@
 @media (max-width:1397px) {.lab { margin-left: 150px;}.buttr {left: -140px;}}@media (max-width:1297) {.lab { margin-left: 100px;}.buttr {left: -170px;}}
 @media (max-width:1275px) {.lab { margin-left: 120px;}.buttr { left: -130px; }}@media (max-width:1183px) {.lab {margin-left: 60px;}.buttr { left: -110px;}}
 
-@media (max-width: 1366px) {
-    .logo{
-        position: relative;
-        top: -60px;
-    }
-    .gradiente{
-        top: -60px;
-    }
-    
-}
-
-
-@media (max-width:1057px) {
-    .lab {
-        margin-left: 60px;
-    }
-    .buttr {
-         left: 0;
-        } 
-    .login1{
-    display: none; 
-    }  
-    .caixalog{
-        top: -50px;
-    }
-
-    .login{
-        width: 100%;
-        height: 95vh;
-        background-color: white;
-    }
-    .container{
-        height: 95vh;
-        width: 95%;
-        position: absolute;
-    }
-    body{
-        height: 100vh;
-        background-color: #0C1E6D;
-
-    }
- }
+@media (max-width: 1366px) {.logo{ position: relative; top: -60px;}.gradiente{ top: -60px;}}@media (max-width:1057px) {.lab { margin-left: 60px; }.buttr
+{ left: 0; }.login1{ display: none;}.caixalog{ top: -50px;}.login{ width: 100%; height: 95vh;background-color: white;}
+.container{height: 95vh;width: 95%; position: absolute; } body{ height: 100vh;background-color: #0C1E6D; }}
 
  @media (max-width:500px) {
     .lab {
@@ -99,6 +60,72 @@
         }
    
  }
+ /* estilizando a autura */
+
+ @media  (max-height: 720px) {
+    .logo{
+        position: relative;
+        top: -100px;
+        width: 100px;
+    }
+    .gradiente{
+        font-size: 30PX;
+        top: -100px;
+    }
+    .caixalog{
+            top: 80px;
+        }
+    .buttr{    
+            top: -5px;
+    }
+    .efectbut{
+        width: 140px;
+        height: 30px;
+    } 
+  }
+  @media  (max-height: 555px) {
+    .logo{
+        position: relative;
+        top: -100px;
+        width: 80px;
+    }
+    .gradiente{
+        font-size: 25PX;
+    }
+    .caixalog{
+            top: 100px;
+        }
+  }
+  @media  (max-height: 463px) {
+    .logo{
+        position: relative;
+        top: -100px;
+        width: 60px;
+    }
+    .gradiente{
+        font-size: 20PX;
+    }
+    .caixalog{
+            top: 100px;
+        }
+        .buttr{    
+            top: -10px;
+    }
+        .labelput {
+            position: relative;
+            top: -20px;
+        }
+        .put{
+            margin-bottom: 20px;
+        }
+  }
+  @media  (max-height: 358px) {
+    .logo{
+        display: none;
+    }
+  }
+
+
 
 
  
