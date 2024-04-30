@@ -6,7 +6,7 @@
 { left: 0; }.login1{ display: none;}.caixalog{ top: -50px;}.login{ width: 100%; height: 95vh;background-color: white;}
 .container{height: 95vh;width: 95%; position: absolute; } body{ height: 100vh;background-color: #0C1E6D; }}
 
- @media (max-width:500px) {
+ @media (max-width:500px ) {
     .lab {
         margin-left: 60px;
     }
@@ -75,15 +75,13 @@
     .caixalog{
             top: 80px;
         }
-    .buttr{    
-            top: -5px;
-    }
+  
     .efectbut{
         width: 140px;
         height: 30px;
     } 
   }
-  @media  (max-height: 555px) {
+  @media  (max-height: 600px) {
     .logo{
         position: relative;
         top: -100px;
@@ -94,6 +92,13 @@
     }
     .caixalog{
             top: 100px;
+        }
+  }
+  @media  (max-height: 560px) {
+    .caixalog{
+        }
+        .put{
+            margin-bottom: 30px;
         }
   }
   @media  (max-height: 463px) {
