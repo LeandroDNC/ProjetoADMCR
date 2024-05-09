@@ -4,19 +4,20 @@ body {
     display: block;
 }
 
-.invisi {
-    width: 100%;
-    height: 80px;
-}
+
 
 .headerinicio {
     margin: 0;
+    width: calc(100% - 0px);
+    height: 60px;
+    padding:  15px;
     display: flex;
     background-color: #0C1E6D;
     align-items: center;
     justify-content: flex-end;
-    padding: 15px;
+    box-sizing: border-box;
 }
+
 
 .butinicio {
     padding: 5px;
@@ -62,32 +63,51 @@ input[type="text"]:focus {
 
 }
 
-
-
-
-
-
 /* ESTILIZANDO O HEADER */
 
-.geral {
-    position: absolute;
-    top: 0;
-    margin: 0;
-    z-index: -1;
+.container {
     width: 100%;
-    height: 93.7vh;
+    height: calc(100vh - 60px);
+    display: grid;
+    grid-template-columns: 13% auto 14%;
+    grid-gap: 10px;
+}
+
+.column1{
     display: flex;
-    flex-direction: row;
-  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px 0px #333;
+
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px 0px #333;
+
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 4px 0px #333;
+
 }
 
 
 .card {
     background-color: WHITE;
-    padding: 20px;
+    width: 130px;
+    height: 120px;
+    padding: 15px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 20PX;
     box-shadow: #043457 .5px .5px 3px .5px;
 
@@ -95,6 +115,7 @@ input[type="text"]:focus {
 }
 
 .butcard {
+    width: 100px;
     border: none;
     border-radius: 5px;
     background-color: #0C1E6D;
@@ -146,20 +167,6 @@ input[type="text"]:focus {
 }
 
 /* ESTILIZANDO O INFORMA (CONTEÚDO DOS CARDS DE USUÁRIOS) */
-
-.informa {
-    width: 75%;
-    height: 100vh;
-    background-color: #ffffff;
-    display: flex;
-    padding: 0px 10px 0px 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    overflow-x: auto;
-}
-
 
 .card2 {
     background-color: white;
@@ -213,23 +220,16 @@ input[type="text"]:focus {
 
 /* ESTILIZANDO A BARRA DE FILTRO */
 
-.filtro {
-    width: 14%;
-    height: 100vh;
-    padding: 0px 10px 0px 10px;
-    align-items: center;
-    justify-content: center;
-    border-left: .5px  #0C1E6D solid;
-}
 
-.container1 {
+.filtro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 50px;
+    
 }
 
 .butfiltro {
@@ -246,7 +246,7 @@ input[type="text"]:focus {
 }
 
 .selectt {
- 
+
     width: 170px;
     height: 30px;
     background-color: #f1f1f1;
@@ -254,17 +254,18 @@ input[type="text"]:focus {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none; 
+    outline: none;
 }
 
 @media (MAX-WIDTH: 1798px) {
-    .container1{
+    .filtro {
 
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .selectt{
+
+    .selectt {
         margin: 10px;
     }
-    
+
 }
